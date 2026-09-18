@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 600;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Quicksand';
+    background-color: #fff;
+}
+
+main {
+    margin: 27px 200px 100px 200px;
+}
+
+.page-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+header {
+    margin: 0 200px;
+    background: #fff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 46px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    font-size: 12px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+.header-nav a.active {
+    color: #84F173;
+}
+
+
+.banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 112px;
+
+}
+
+.banner-text h2 {
+    color: #2E2E2E;
+    font-size: 48px;
+}
+
+.banner-text h1,
+.banner-text p {
+    max-width: 562px;
+}
+
+.banner-text p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #84F173;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #256628;
+}
+
+.banner-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.banner-text li {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.banner-image img {
+    width: 654px;
+    height: 498px;
+}
+
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.services-text p {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #6D6D6D;
+    font-size: 16px;
+}
+
+.services-images {
+    flex: 1;
+    display: flex;
+    gap: 30px;
+}
+
+.services-images img {
+    width: 350px;
+    height: 480;
+    object-fit: cover;
+}
+
+.green {
+    color: #84F173;
+    font-weight: 600;
+}
+
+.video {
+    padding: 10px 0;
+}
+
+
+.stats-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat .green {
+    font-size: 64px;
+    font-weight: 600;
+    color: #84F173;
+}
+
+.stat p {
+    font-weight: 600;
+    font-size: 24px;
+    color: #2E2E2E;
+}
+
+.actions {
+
+}
+
+.actions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 92px;
+    margin-right: 200px;
+}
+
+.action {
+
+}
+
+.action img {
+    height: 72px;
+    gap: 15px;
+}
+
+.action h3 {
+    font-size: 28px;
+    gap: 10px;
+    color: #2E2E2E;
+}
+
+.action p {
+    font-size: 18px;
+    color: #2E2E2E;
+}
+
+.subscribe {
+    width: 100%;
+    text-align: center;
+}
+
+.subscribe h2 {
+    font-size: 48px;
+    color: #2E2E2E;
+}
+
+.subscribe h2 .green {
+    color: #84F173;
+    font-weight: 600;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 903px;
+    height: 80px;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px solid #C1C1C1;
+    border-radius: 40px;
+    background: #fff;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.subscribe-form input {
+    flex: 1;
+    padding: 16px 20px;
+    border: none;
+    font-size: 24px;
+    outline: none;
+    background: transparent;
+}
+
+.subscribe-form button {
+    background: #84F173;
+    color: #fff;
+    border: none;
+    width: 229px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.subscribe-form button:hover {
+    background: #6fd95e;
+}
+
+.footer {
+    background: #434343;
+    color: #fff;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    height: 46px;
+}
+
+.footer-social a {
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.footer-social img {
+    height: 32px;
+}
